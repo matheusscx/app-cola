@@ -15,6 +15,8 @@ io.on('connection', (client) => {
         ultimoTicket: ticketControl.getUltimoTicket()
     });
 
+    client.emit('ultimosCuatro',ticketControl.getUltimosCuatro());
+
     client.on('siguienteTicket', (data, callback) => {
         let ticket = ticketControl.siguienteNumero();
         client.broadcast.emit('siguienteTicket', ticket);

@@ -1,9 +1,9 @@
-# App Cola de clientes:
+# App Cola de clientes.
 
-Esta es una pequeña aplicación de cola de clientes
+Esta es una pequeña aplicación web de colas de clientes en node.js
+que implementa sockets para la comunicación entre las diferentes vistas.
 
-Recuerden instalar los módulos de node con el comando:
 
-```
-npm install
-```
+Puedes visitarla en :https://app-cola-.herokuapp.com/
+
+
