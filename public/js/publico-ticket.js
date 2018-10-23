@@ -18,9 +18,9 @@ $(document).ready(function () {
 
 
     socket.on('ultimosCuatro', function (resp) {
-        
-         var audio = new Audio('audio/new-ticket.mp3')
-         audio.play();
+
+        var audio = new Audio('audio/new-ticket.mp3')
+        audio.play();
         for (let i = 0; i < resp.length; i++) {
             escritorios[i].text('Escritorio n° ' + resp[i].escritorio);
             tickets[i].text('Ticket: ' + resp[i].numTicket);
